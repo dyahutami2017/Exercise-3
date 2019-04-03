@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Exercise 3</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    body{
+    text-align: center;
+    background-color: #696969;}
+    .form-group label{
+      color: white;
+      font-size: 32px;
+      float:left;}
+    h1{
+      color: white;
+    }
+  
+    </style>
+    </head>
+    <body>
+            <h1 class="display-4">Planet List</h1>
+<div class="container">
+    <div class="form-group">
+        <label for="search">Search</label>
+            <input type="text" class ='form-control' id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+          </div>
+            <table class="table table-bordered table-dark" id="planets-starswars">
+                    
+                    <tr>
+                      <td>Name</td>
+                      <td>Rotation Period</td>
+                      <td>Orbital Period</td>
+                      <td>Diameter</td>
+                      <td>Climate</td>
+                      <td>Gravity</td>
+                      <td>Terrain</td>
+                      <td>Surface Water</td>
+                      <td>Population</td>
+                    </tr>
+                  </table>
+                  
+                </div>
+        <script src="exercise3.js"></script>
+    </body>
+</html>
